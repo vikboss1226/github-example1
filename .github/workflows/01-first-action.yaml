@@ -1,17 +1,24 @@
-name: github-first-action
-on: push
+name: GitHub First Action
+
+on:
+  push:
+
 jobs:
   first-run:
     runs-on: ubuntu-latest
+
     steps:
-      - name: hello world
-        run: echo "hello world..!"
-      - name: second-step
-        run: echo "second steps performed"
+      - name: Display Hello World Message
+        run: echo "Hello, World!"
+
+      - name: Display Workflow Status
+        run: echo "First job executed successfully."
+
   second-run:
     runs-on: ubuntu-latest
+
     steps:
-      - name: my-second-job
+      - name: Execute Second Job
         run: |
-          echo "second job"
-          echo "second job next line"
+          echo "Executing the second job..."
+          echo "Second job completed successfully."
