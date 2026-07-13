@@ -20,5 +20,6 @@ jobs:
     steps:
       - name: ⚙️ Execute Second Job
         run: |
+          exit 1
           echo "🔧 Running the second job..."
           echo "✨ Workflow execution completed successfully!"
