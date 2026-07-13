@@ -8,20 +8,17 @@ on:
 jobs:
   first-run:
     runs-on: ubuntu-latest
-
     steps:
-      - name: 🌟 Welcome Message
-        run: echo "🚀 Welcome to GitHub Actions!"
+      - name: Welcome Message
+        run: echo "Welcome to GitHub Actions!"
 
-      - name: ✅ Verify First Job
-        run: echo "🎉 First job completed successfully."
+      - name: Verify First Job
+        run: echo "First job completed successfully."
 
   second-run:
     runs-on: ubuntu-latest
-
     steps:
-      - name: ⚙️ Execute Second Job
+      - name: Execute Second Job
         run: |
-          echo "🔧 Running the second job..."
-          echo "✨ Workflow execution completed successfully!"
-          exit 0
+          echo "Running the second job..."
+          echo "Workflow execution completed successfully!"
