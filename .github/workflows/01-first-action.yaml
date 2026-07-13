@@ -2,6 +2,8 @@ name: GitHub First Action
 
 on:
   push:
+  pull_request:
+  workflow_dispatch:
 
 jobs:
   first-run:
