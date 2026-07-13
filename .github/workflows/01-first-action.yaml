@@ -4,5 +4,5 @@ jobs:
   first-run:
     runs-on: ubunut-latest
     steps:
-      - name: hello world
+      - name: hello world example
         run: echo "hello world..!"
