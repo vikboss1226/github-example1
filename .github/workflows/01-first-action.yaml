@@ -1,0 +1,8 @@
+name: github-first-action
+on: push
+jobs:
+  first-run:
+    runs-on: ubunut-latest
+    steps:
+      - name: hello world
+        run: echo "hello world..!"
